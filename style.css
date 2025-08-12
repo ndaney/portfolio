@@ -44,7 +44,7 @@ body {
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: white;
+
 }
 
 .picture h1 {
@@ -53,6 +53,7 @@ body {
     font-weight: 600; /* Le da un peso más audaz */
     color: white; /* Asegura que el color sea blanco */
     margin: 0; /* Elimina cualquier margen extra */
+    text-shadow: 5px 10px 8px rgba(224, 22, 56, 0.6);
 }
 
 
