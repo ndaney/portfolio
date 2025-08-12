@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* el fondo no se mueva al scrolear */
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.rounded-circle {
+    max-width: 300px;
+}
+
+.sections {
+    padding: 20px;
+    color: white;
+}
+
+.card {
+    box-shadow: 0px 10px 8px 10px rgba(223, 24, 24, 0.2);
+    border-radius: 1rem;
+    border: 3px solid rgba(252, 251, 251, 0.1);
+}
+
+.card-body h2 {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.card-text, .list-unstyled li {
+    font-size: 1.1rem; 
+    font-weight: 300; 
+}
+
+.picture {
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.picture h1 {
+    font-family: 'Playfair Display', serif; /* Aplica la nueva fuente */
+    font-size: 3rem; /* Aumenta el tamaño para que se vea más grande */
+    font-weight: 600; /* Le da un peso más audaz */
+    color: white; /* Asegura que el color sea blanco */
+    margin: 0; /* Elimina cualquier margen extra */
+}
+
+
+
+.card-subtitle {
+    color: #b0b0b0; 
+    font-weight: 400;
+}
+
+
+.seccion-oscura {
+    background-color: #212529; 
+}
+
+.footer-texto {
+    color: #b0b0b0; 
+    font-weight: 300;
+    font-style: italic;
+}
+.project-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/* Estilos íconos de las habilidades */
+.tech-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+.experience-image {
+    max-width: 150px;
+    border-radius: 20%;
+    margin: 0 auto 1.5rem;
+    object-fit: cover;
+    border: 3px solid #b0b0b0;
+}
+
+.hobby-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+.card-body p {
+    text-align: justify;
+  }

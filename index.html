@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Portafolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Dejar de avanzar Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="picture" >
+      <img src="./img/Img_nico.png" alt="foto perfil" class="rounded-circle shadow">
+      <div>
+        <h1 id="proyectos" class="card-title">Nicolás Rafael Daney</h1>
+      </div>
+    </div>
+    
+    <div class="sections">
+        <div class="sections container">
+            <div class="card text-bg-dark mb-4">
+                <div class="card-body">
+                    <h2 id="sobre-mi" class="card-title">Sobre mí</h2>
+                    <p class="card-text">
+                        Soy un ingeniero DevOps y especialista en infraestructura Cloud con una sólida trayectoria en la modernización de sistemas y la automatización de procesos. Mi experiencia abarca la administración de infraestructuras tradicionales y su posterior evolución hacia entornos cloud (AWS y GCP). Actualmente, estoy expandiendo mis conocimientos hacia el desarrollo web, con el objetivo de complementar mis habilidades y convertirme en un profesional full-stack capaz de construir soluciones completas, desde la infraestructura hasta la interfaz de usuario.
+                    </p>
+                </div>
+            </div>
+        </div>
+            <div class="card text-bg-dark mb-4">
+                <div class="card-body">
+                    <h2 id="proyectos" class="card-title">Proyectos</h2>
+                    <img src="./img/cloud.jpg" alt="cloud" class="img-fluid rounded mb-3 project-image">
+                    <hr class="text-secondary">
+        
+                    <div class="mb-4">
+                        <h5 class="card-subtitle mb-2">Proyecto 1: AutoDeploy Hub</h5>
+                        <p class="card-text">
+                            Una plataforma web que simplifica el despliegue de aplicaciones para startups...
+                        </p>
+                        <ul class="list-unstyled">
+                            <li>
+                                <strong>Tecnologías Usadas:</strong> HTML, CSS, JavaScript, Python, GitLab CI, AWS, Terraform.
+                            </li>
+                            <li>
+                                <strong>Rol:</strong> Desarrollador y Arquitecto Principal.
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <hr class="text-secondary">
+        
+                    <div>
+                        <h5 class="card-subtitle mb-2">Proyecto 2: CloudVista Monitor</h5>
+                        <p class="card-text">
+                            Una herramienta de monitoreo y visualización de infraestructura en la nube...
+                        </p>
+                        <ul class="list-unstyled">
+                            <li>
+                                <strong>Tecnologías Usadas:</strong> Grafana, Prometheus, AWS, GCP, Kubernetes.
+                            </li>
+                            <li>
+                                <strong>Rol:</strong> Especialista en Monitoreo y DevOps.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card text-bg-dark mb-4">
+                <div class="card-body">
+                    <h2 id="habilidades" class="card-title">Habilidades</h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <strong><img src="./img/cloud-devops.jpg" alt="devops" class="tech-icon"> Cloud & DevOps</strong>
+                            <p>Amazon Web Services (AWS), Google Cloud Platform (GCP), Terraform, Terraspace, Kubernetes, Pipelines: GitLab CI, Herramientas de seguridad: Hashicorp Vault, Vault Webhook, External Secrets</p>
+                        </li>
+                        <li>
+                            <strong><img src="./img/scripting.png" alt="Scripting" class="tech-icon"> Scripting & Automatización</strong>
+                            <p>Bash, Python</p>
+                        </li>
+                        <li>
+                            <strong><img src="./img/monitoring.webp" alt="Icono de Monitoreo" class="tech-icon"> Monitoreo de Infraestructura</strong>
+                            <p>Nagios, Zabbix, Grafana, New Relic</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="card text-bg-dark mb-4">
+                <div class="card-body">
+                    <h2 id="experiencia" class="card-title">Experiencia</h2>
+                    <a href="enlace-a-un-sitio-relacionado" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/reba.jpg" alt="Logo de la empresa" class="experience-image">
+                    </a>
+                    
+                    <h5 class="card-subtitle mb-2">Líder DevOps en la industria financiera</h5>
+                    <p class="card-text">
+                        Durante varios años, me desempeñé como líder DevOps en una compañía financiera reconocida en el sector de la banca digital.
+                    </p>
+                    <h5 class="card-subtitle mb-2">Transformación y modernización de sistemas</h5>
+                    <ul class="list-unstyled">
+                        <li>Conduje la arquitectura, despliegue y administración de sistemas cloud utilizando Terraform y Terraspace sobre AWS y GCP.</li>
+                        <li>Llevé a cabo transformaciones digitales, migrando sistemas tradicionales (VMs) a entornos cloud y rediseñando aplicaciones monolíticas a arquitecturas de microservicios.</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="card text-bg-dark mb-4">
+                <div class="card-body">
+                    <h2 id="hobbies" class="card-title">Hobbies</h2>
+                    <p class="card-text">
+                        Además de mi vida profesional, me dedico a actividades que potencian mi disciplina y creatividad.
+                    </p>
+                    
+                    <div class="d-flex justify-content-center align-items-center mb-3 hobby-images-container">
+                        <img src="./img/natacion.jpg" alt="natacion" class="hobby-image me-3">
+                        <img src="./img/bateria.png" alt="bateria" class="hobby-image">
+                    </div>
+        
+                    <ul class="list-unstyled">
+                        <li>
+                            <strong>Natación:</strong> Soy un apasionado de la natación, disfrutando tanto de la competencia en estilo libre como de los desafíos únicos que ofrecen las aguas abiertas.
+                        </li>
+                        <li>
+                            <strong>Música:</strong> Me gusta el rock y toco la batería. La música es mi forma de desconectar y de ejercitar la creatividad.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center text-light"> 
+        <p class="footer-texto text-center">Aprendo todos los días.<br>Me gustan los desafios.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://github.com/nicolasdaney" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github fs-3"></i>
+          </a>
+          <a href="https://www.linkedin.com/nicolasdaney" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin fs-3"></i>
+          </a>
+          <a href="https://www.instagram.com/nicolasdaney/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram fs-3"></i>
+          </a>
+          <a href="mailto:nicolas@daney.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope fs-3"></i>
+          </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Nicolas Daney &#169;</div>
+    </footer>
+</body>
+</html>
