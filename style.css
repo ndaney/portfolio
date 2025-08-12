@@ -51,7 +51,7 @@ body {
     font-family: 'Playfair Display', serif; /* Aplica la nueva fuente */
     font-size: 3rem; /* Aumenta el tamaño para que se vea más grande */
     font-weight: 600; /* Le da un peso más audaz */
-    color: white; /* Asegura que el color sea blanco */
+    color: rgb(227, 229, 248); /* Asegura que el color sea blanco */
     margin: 0; /* Elimina cualquier margen extra */
     text-shadow: 5px 10px 8px rgba(224, 22, 56, 0.6);
 }
@@ -80,7 +80,7 @@ body {
     object-fit: cover;
 }
 
-/* Estilos íconos de las habilidades */
+/* habilidades */
 .tech-icon {
     width: 60px;
     height: 60px;
